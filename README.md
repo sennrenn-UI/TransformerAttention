@@ -5,10 +5,12 @@ import torch.nn.functional as F
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+torch.manual_seed(0)
+x = torch.randn(14, 14)
 
-tokens = tokens = ["彼", "は", "それ", "を", "見て", "笑った", "けど", "私", "は", "少し", "怖かった", "。"]
+tokens = tokens = ["彼", "は", "それ", "を", "見て", "笑っ","た" "けど", "私", "は", "少し", "怖かっ","た" "。"]
 
-x = torch.randn(12, 12)
+x = torch.randn(14, 14)
 
 #  Q, K, Vの作成
 Q = x
