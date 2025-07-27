@@ -8,7 +8,7 @@ import seaborn as sns
 torch.manual_seed(0)
 x = torch.randn(14, 14)
 
-tokens = tokens = ["彼", "は", "それ", "を", "見て", "笑っ","た" "けど", "私", "は", "少し", "怖かっ","た" "。"]
+tokens = tokens = ["彼", "は", "それ", "を", "見て", "笑っ","た" "が", "私", "は", "少し", "怖かっ","た" "。"]
 
 x = torch.randn(14, 14)
 
